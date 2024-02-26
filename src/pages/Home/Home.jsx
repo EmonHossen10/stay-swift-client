@@ -8,6 +8,7 @@ const Home = () => {
       <Categories></Categories>
       {/* rooms section  */}
       <Rooms></Rooms>
+      <h2 className="text-5xl">this is room</h2>
     </div>
   );
 };

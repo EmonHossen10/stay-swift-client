@@ -9,6 +9,11 @@ const Home = () => {
       {/* rooms section  */}
       <Rooms></Rooms>
       <h2 className="text-5xl">this is room</h2>
+      <h2 className="text-5xl">this is room</h2>
+      <h2 className="text-5xl">this is room</h2>
+      <h2 className="text-5xl">this is room</h2>
+      <h2 className="text-5xl">this is room</h2>
+      <h2 className="text-5xl">this is room</h2>
     </div>
   );
 };

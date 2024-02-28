@@ -11,7 +11,7 @@ const Rooms = () => {
   }, []);
   return (
     <Container>
-      <div className="grid grid-cols-1 md:grid-cols-3 xl:grid-cols-5 gap-8">
+      <div className="grid pt-10 grid-cols-1 md:grid-cols-3 xl:grid-cols-5 gap-8">
         {rooms.map((room) => (
           <Card room={room} key={room._id}></Card>
         ))}
